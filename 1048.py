@@ -15,6 +15,7 @@ elif salario > 1200 and salario <= 2000:
 elif salario > 2000:
     percentual = '4 %'
     reajuste = 4/100 * salario
+
 total = salario + reajuste
 print(f'Novo salario: {total:.2f}')
 print(f'Reajuste ganho: {reajuste:.2f}')
